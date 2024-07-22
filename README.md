@@ -6,7 +6,7 @@ Este projeto foi desenvolvido com base nos estudos do curso "[SQL para Análise 
 ## Estrutura do banco de dados
 O projeto utiliza um banco de dados relacional dividido em dois schemas, conforme ilustrado na imagem abaixo. O primeiro schema, **sales**, contém a maior parte dos dados gerados pelo sistema fictício de e-commerce. Já o segundo schema, **temp_tables**, abriga tabelas auxiliares que suportam diversas análises.
 
-![](https://github.com/helioneto3108/Analise_Dados_PostgreSQL/blob/main/Imagens/Estrutura_Banco.PNG) 
+![](/Imagens/Estrutura_Banco.PNG) 
 
 
 <div align="center">
