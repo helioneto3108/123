@@ -18,3 +18,7 @@ O projeto utiliza um banco de dados relacional dividido em dois schemas, conform
 * **customers**: Armazena informações detalhadas sobre os clientes, como nome, e-mail, e outras características relevantes que ajudam a identificar e analisar o comportamento dos usuários.
 * **stores**: Fornece informações sobre as lojas que estão oferecendo produtos aos clientes. Inclui dados como nome da loja e outras características da loja.
 * **products**: Contém dados sobre os produtos que os clientes estão procurando. Inclui informações como nome do marca, modelo, preço e outras especificações relevantes.
+
+## Dados
+
+Os dados podem ser obtidos utlizando o arquvio [Query que irá criar e popular as tabelas do banco de dados](./Query_Criar_Banco_Dados.txt)
