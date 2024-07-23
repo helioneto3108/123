@@ -32,7 +32,7 @@ O segundo schema, chamado **temp_tables**, é dedicado a tabelas auxiliares que 
 
 ## Dados
 
-Os dados para este projeto podem ser obtidos utilizando o arquivo `Query_Criar_Banco_Dados.txt`, que está presente neste diretório. Este arquivo é responsável por criar e popular as tabelas mencionadas na seção [Estrutura do banco de dados](#estrutura-do-banco-de-dados).
+Os dados para este projeto podem ser obtidos utilizando o arquivo `Query_Criar_Banco_Dados.txt`, que está presente neste diretório na pasta `Queries`. Este arquivo é responsável por criar e popular as tabelas mencionadas na seção [Estrutura do banco de dados](#estrutura-do-banco-de-dados).
 
 Devido ao grande número de linhas, o conteúdo do arquivo não é exibido diretamente no GitHub. Para acessá-lo, siga os passos abaixo:
 
@@ -86,6 +86,8 @@ O dashboard é dividido em duas partes principais:
   * **Marcas Mais Procuradas**: Identifica as marcas mais buscadas, com Fiat, Volkswagen e Chevrolet liderando a lista. Isso pode estar relacionado ao fato de que essas marcas oferecem modelos mais acessíveis, que são frequentemente procurados por clientes na faixa etária e faixa salarial mencionadas.
 
 Essa análise permite compreender melhor o perfil dos clientes e suas preferências, facilitando a adaptação das ofertas e estratégias de marketing para atender às necessidades e expectativas do público-alvo.
+
+As queries SQL utilizadas para gerar essas visões podem ser encontradas no arquivo `queries_dash_clientes` presente nesse diretório na pasta `Queries`
 
 O dashboard completo pode ser visualizado na imagem abaixo:
 
