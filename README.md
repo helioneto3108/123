@@ -36,3 +36,26 @@ Devido ao grande número de linhas, o conteúdo do arquivo não é exibido diret
 
 Essa abordagem garantirá que todas as tabelas sejam corretamente criadas e populadas, permitindo que você reproduza as análises e relatórios do projeto.
 
+## Dashboard de acompanhamento de vendas
+
+O objetivo do projeto, conforme proposto por [Midori Toyota](https://www.linkedin.com/in/midoritoyota/), foi desenvolver um dashboard de vendas que destaca os principais indicadores de desempenho e os drivers dos resultados para o mês de agosto de 2021. O dashboard foi projetado para fornecer uma visão clara e compreensiva do desempenho de vendas da empresa durante esse período.
+
+### Indicadores e Análises
+
+O dashboard inclui os seguintes indicadores principais:
+
+* **Receita e Ticket Médio**: Observamos que a receita da empresa apresentou crescimento contínuo, enquanto o ticket médio permaneceu relativamente constante. Isso sugere que o aumento na receita é resultado de um maior volume de vendas, e não necessariamente de um aumento no valor médio de cada venda.
+  
+* **Leads e Taxa de Conversão**: O segundo gráfico do dashboard ilustra a relação entre o número de leads gerados (interações no site) e a taxa de conversão desses leads. Notamos que, com o tempo, a taxa de conversão aumentou, assim como o número de leads. Isso corrobora a ideia de que o crescimento da receita pode ser atribuído ao aumento no número de vendas, enquanto o ticket médio permaneceu estável.
+  
+* **Detalhes do Mês de Agosto de 2021**: O dashboard também inclui gráficos detalhados sobre:
+  * Marcas mais vendidas durante o mês.
+  * Lojas com maiores volumes de vendas.
+  * Regiões com melhor desempenho em vendas.
+  * Distribuição das visitas ao site por dia da semana.
+
+Essas visualizações foram criadas utilizando o Excel para proporcionar uma análise detalhada e acessível dos dados. As queries SQL utilizadas para gerar essas visões podem ser encontradas no arquivo `queries_dash_vendas` presente nesse diretório na pasta `Queries`. As consultas foram realizadas utilizando **PostgreSQL** no software **PgAdmin 4**.
+
+O dashboard completo pode ser visualizado na imagem abaixo:
+
+![](/Imagens/Dash_vendas.png) 
