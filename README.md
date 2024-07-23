@@ -7,7 +7,7 @@ O projeto apresenta análises detalhadas e relatórios que demonstram a aplicaç
 ## Índices
 
 - [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
-- [Tabelas no Schema sales](#tabelas-no-schema-sales)
+  - [Tabelas no Schema sales](#tabelas-no-schema-sales)
 - [Dados](#dados)
 - [Dashboard de Acompanhamento de Vendas](#dashboard-de-acompanhamento-de-vendas)
   - [Indicadores e Análises](#indicadores-e-análises)
