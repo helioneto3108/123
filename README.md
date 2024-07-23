@@ -4,6 +4,17 @@ Este projeto de portfólio é o resultado dos estudos realizados no curso "[SQL 
 
 O projeto apresenta análises detalhadas e relatórios que demonstram a aplicação prática dos conceitos aprendidos durante o curso. As análises fornecem uma compreensão aprofundada sobre o comportamento dos clientes e o desempenho das vendas, destacando a eficácia das técnicas de SQL em um contexto empresarial. Através desse projeto, foi possível evidenciar como a utilização de SQL pode revelar padrões e informações cruciais para a tomada de decisões estratégicas.
 
+## Índice
+
+- [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
+- [Tabelas no Schema sales](#tabelas-no-schema-sales)
+- [Dados](#dados)
+- [Dashboard de Acompanhamento de Vendas](#dashboard-de-acompanhamento-de-vendas)
+  - [Indicadores e Análises](#indicadores-e-análises)
+- [Dashboard de Análise do Cliente](#dashboard-de-análise-do-cliente)
+  - [Estrutura do Dashboard](#estrutura-do-dashboard)
+- [Agradecimentos](#agradecimentos)
+
 ## Estrutura do Banco de Dados
 O projeto utiliza um banco de dados relacional dividido em dois schemas distintos, conforme ilustrado na imagem abaixo. Essa divisão permite uma organização mais clara e eficiente dos dados, facilitando a realização de análises complexas.
 
