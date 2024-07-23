@@ -1,10 +1,14 @@
 # Projeto de Portfólio: Análise de Dados com SQL
 
-Este projeto foi desenvolvido com base nos estudos do curso "[SQL para Análise de Dados: Do básico ao avançado](https://www.udemy.com/course/sql-para-analise-de-dados/?couponCode=24T7MT72224)", ministrado por [Midori Toyota](https://www.linkedin.com/in/midoritoyota/). O curso foi conduzido em um cenário fictício de e-commerce, simulando uma empresa que vende carros. Utilizando dados fictícios gerados para representar interações de clientes com o site da empresa, o objetivo foi criar um sistema realista e analisar as informações obtidas. Como resultado final, o projeto apresenta análises detalhadas e relatórios que evidenciam a aplicação prática dos conhecimentos adquiridos ao longo do curso. Essas análises fornecem insights valiosos sobre o comportamento dos clientes e ajudam a entender melhor o desempenho das vendas, demonstrando a eficácia das técnicas de SQL no contexto de negócios.
+Este projeto foi desenvolvido com base nos estudos do curso "[SQL para Análise de Dados: Do básico ao avançado](https://www.udemy.com/course/sql-para-analise-de-dados/?couponCode=24T7MT72224)", ministrado por [Midori Toyota](https://www.linkedin.com/in/midoritoyota/). O curso foi conduzido em um cenário fictício de e-commerce, simulando uma plataforma onde várias lojas vendem seus carros. Utilizando dados fictícios gerados para representar interações de clientes com o site da empresa, o objetivo foi criar um sistema realista e analisar as informações obtidas. Como resultado final, o projeto apresenta análises detalhadas e relatórios que evidenciam a aplicação prática dos conhecimentos adquiridos ao longo do curso. Essas análises fornecem insights valiosos sobre o comportamento dos clientes e ajudam a entender melhor o desempenho das vendas, demonstrando a eficácia das técnicas de SQL no contexto de negócios.
 
 
 ## Estrutura do banco de dados
-O projeto utiliza um banco de dados relacional dividido em dois schemas, conforme ilustrado na imagem abaixo. O primeiro schema, **sales**, contém a maior parte dos dados gerados pelo sistema fictício de e-commerce. Já o segundo schema, **temp_tables**, abriga tabelas auxiliares que suportam diversas análises.
+O projeto utiliza um banco de dados relacional dividido em dois schemas distintos, conforme ilustrado na imagem abaixo. Essa divisão permite uma organização mais clara e eficiente dos dados, facilitando a realização de análises complexas.
+
+O primeiro schema, denominado **sales**, contém a maior parte dos dados gerados pelo sistema fictício de e-commerce. Este schema inclui informações cruciais sobre interações dos clientes, detalhes dos produtos, dados das lojas e registros das vendas. Essa estruturação permite uma visão abrangente e detalhada das operações de vendas e do comportamento dos clientes no site.
+
+O segundo schema, chamado **temp_tables**, é dedicado a tabelas auxiliares que dão suporte a diversas análises. Essas tabelas são utilizadas para armazenar dados temporários, resultados intermediários de consultas e outras informações auxiliares que facilitam a execução de análises detalhadas e a geração de relatórios. A utilização deste schema separado ajuda a manter o schema principal mais organizado e focado nas transações essenciais.
 
 ![](/Imagens/Estrutura_Banco.PNG) 
 
@@ -21,4 +25,14 @@ O projeto utiliza um banco de dados relacional dividido em dois schemas, conform
 
 ## Dados
 
-Os dados podem ser obtidos utlizando o arquvio [Query que irá criar e popular as tabelas do banco de dados](./Query_Criar_Banco_Dados.txt)
+Os dados para este projeto podem ser obtidos utilizando o arquivo `Query_Criar_Banco_Dados.txt`, que está presente neste diretório. Este arquivo é responsável por criar e popular as tabelas mencionadas na seção [Estrutura do banco de dados](#estrutura-do-banco-de-dados).
+
+Devido ao grande número de linhas, o conteúdo do arquivo não é exibido diretamente no GitHub. Para acessá-lo, siga os passos abaixo:
+
+1. Clique no botão `View raw` para visualizar o arquivo em sua forma bruta.
+2. Após o código aparecer, pressione `Ctrl + A` para selecionar todas as linhas.
+3. Copie o conteúdo selecionado (`Ctrl + C`).
+4. Cole o conteúdo no seu editor de query preferido e execute para criar e popular as tabelas necessárias.
+
+Essa abordagem garantirá que todas as tabelas sejam corretamente criadas e populadas, permitindo que você reproduza as análises e relatórios do projeto.
+
